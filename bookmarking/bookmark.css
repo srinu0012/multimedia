@@ -1,0 +1,26 @@
+p:target{
+    color: rgb(185, 34, 34);
+}
+.sep{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+.sep a{
+    text-decoration: none;
+    background: red;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    border: 1px solid green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow:5px 5px 5cqi black;
+}
+.sep a:hover{
+    scale: 1.1;
+}
+a:visited{
+    color: green;
+}
